@@ -26,8 +26,6 @@ rectangle = function(height, width, x, y, mode, color, id) {
 //Drawing with SVG
 
 //Function for rectanlge
-//const svg = document.getElementById(id);
-
 function rectangleSvg(x, y, width, height, style, id) {
     var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
     rect.setAttribute("x", x);
