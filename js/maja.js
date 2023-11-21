@@ -20,15 +20,3 @@ rectangle(10, 120, 40, 130, "solid", "black", "majaCanvas")
 rectangle(20, 150, 20, 45, "solid", "yellow", "majaCanvas")
 
 
-//drawing mouth with canvas
-
-ovalSvg("100", "150", "50", "20", "fill:red", "majaSvg");
-
-//oval(100, 100, 50, 40, 0, Math.PI * 2, "solid", "black", "majaCanvas"); // Face
-
-ovalSvg("110", "180", "15", "40", "2", "fill:grey", "majaSvg")
-
-
-
-
-
