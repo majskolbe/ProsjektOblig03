@@ -17,4 +17,4 @@ OvalSvg("100", "160", "50", "20", "0", "fill:red", "joelSvg");
 
 
  //drawing mouth with canvas
- Oval(100, 160, 50, 20, 400, 0, 0, "solid", "red", "joelCanvas");
+ Oval(100, 160, 50, 20, 0, 0, Math.PI * 2, "solid", "red", "joelCanvas");
