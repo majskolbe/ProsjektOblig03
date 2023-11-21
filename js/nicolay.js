@@ -1,6 +1,6 @@
 
 rectangleSvg("0", "0", "540", "300", "fill:lightblue", "nicolaySvg")
-rectangleSvg("0", "220", "540", "80", "fill:darkblue", "nicolaySvg")
+rectangleSvg("0", "220", "540", "80", "fill:aqua", "nicolaySvg")
 circleSvg("260", "140", "110", "fill:yellow", "nicolaySvg")
 circleSvg("50", "20", "40", "fill:gold", "nicolaySvg")
 OvalSvg("220", "125", "20", "23", "0", "fill:orange", "nicolaySvg")
@@ -13,7 +13,7 @@ OvalSvg("265", "180", "46", "21", "0", "fill:yellow", "nicolaySvg")
 
 
 rectangle(300, 540, 0, 0, "solid", "lightblue", "NicolayCanvas")    
-rectangle(80, 540, 0, 220, "solid", "darkblue", "NicolayCanvas")
+rectangle(80, 540, 0, 220, "solid", "aqua", "NicolayCanvas")
 
 circle(110, "solid", "yellow", 260, 140, "NicolayCanvas")
 circle(40, "solid", "orange", 50, 20, "NicolayCanvas")  
