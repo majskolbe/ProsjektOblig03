@@ -25,7 +25,7 @@ rectangle = function(height, width, x, y, mode, color, id) {
 
 
 Oval = function(x, y, radiusX, radiusY, rotation, startAngle, endAngle, mode, color, id) {
-  const ctx = document.getElementById(id);
+  const ctx = document.getElementById(id).getContext("2d");
   ctx.fillStyle = color;
   ctx.beginPath();
   ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle);
