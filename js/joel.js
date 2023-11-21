@@ -6,7 +6,7 @@ circleSvg("100", "100", "100", "fill:white", "joelSvg");
 circleSvg("140", "70", "20", "fill:blue", "joelSvg");
 circleSvg("60", "70", "20", "fill:blue", "joelSvg");
 circleSvg("100", "110", "20", "fill:red", "joelSvg");
-OvalSvg("100", "160", "50", "20", "0", "fill:red", "joelSvg");
+OvalSvg("100", "160", "50", "20", "1", "fill:red", "joelSvg");
 
 
  //draving circles with different parameters
