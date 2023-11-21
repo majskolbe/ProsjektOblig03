@@ -24,7 +24,7 @@ rectangle = function(height, width, x, y, mode, color, id) {
 //function for drawing a smiley mouth
 
 
-Oval = function(x, y, radiusX, radiusY, rotation, startAngle, endAngle, mode, color) {
+Oval = function(x, y, radiusX, radiusY, rotation, startAngle, endAngle, mode, color, id) {
   ctx.fillStyle = color;
   ctx.beginPath();
   ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle);
