@@ -12,7 +12,7 @@ OvalSvg("265", "180", "46", "21", "0", "fill:yellow", "nicolaySvg")
 
 
 
-rectangle(300, 540, 0, 0, "solid", "skyeblue", "NicolayCanvas")    
+rectangle(300, 540, 0, 0, "solid", "skye-blue", "NicolayCanvas")    
 rectangle(80, 540, 0, 220, "solid", "darkblue", "NicolayCanvas")
 
 circle(110, "solid", "yellow", 260, 140, "NicolayCanvas")
