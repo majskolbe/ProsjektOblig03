@@ -66,6 +66,22 @@ function circleSvg(x, y, r, style, id){
     document.getElementById(id).appendChild(circle);
 }
 
+function OvalSvg(x, y, rx, ry, RotationR, style, id){
+  var ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
+  ellipse.setAttribute("cx", x);
+  ellipse.setAttribute("cy", y);
+  ellipse.setAttribute("rx", rx);
+  ellipse.setAttribute("ry", ry);
+
+  RotationD = (RotationR * 180) / Math.PI;
+  ellipse.setAttribute("transform", `rotate(${RotationD} ${x} ${y})`);
+  
+  ellipse.setAttribute("style", style);
+  document.getElementById(id).appendChild(ellipse);
+}
+
+
+
 //funksjon for å skrive ut en oval
 /*function ovalSvg(x, y, rx, ry, style, id){
     var ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
