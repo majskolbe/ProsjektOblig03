@@ -3,20 +3,22 @@
 
 //function for drawing a circle with canvas
 circle = function(radius, mode, color, x, y, id) {
-    document.getElementById(id).getContext("2d").fillStyle = color;
-    document.getElementById(id).getContext("2d").beginPath();
-    document.getElementById(id).getContext("2d").arc(x, y, radius, 0, Math.PI * 2, true); // Outer circle
+    const ctx = document.getElementById(id);
+    ctx.getContext("2d").fillStyle = color;
+    ctx.getContext("2d").beginPath();
+    ctx.getContext("2d").arc(x, y, radius, 0, Math.PI * 2, true); // Outer circle
   if (mode == "solid") {
-    document.getElementById(id).getContext("2d").fill();
+    ctx.getContext("2d").fill();
   } else {
-    document.getElementById(id).getContext("2d").stroke();
+    ctx.getContext("2d").stroke();
   }
 }
 
 //function for drawing rectangles
 rectangle = function(height, width, x, y, mode, color, id) {
-    document.getElementById(id).getContext("2d").fillStyle = color, mode;
-    document.getElementById(id).getContext("2d").fillRect(x, y, width, height);
+    const rct = document.getElementById(id);
+    rct.getContext("2d").fillStyle = color, mode;
+    rct.getContext("2d").fillRect(x, y, width, height);
   }
 
 
@@ -24,7 +26,7 @@ rectangle = function(height, width, x, y, mode, color, id) {
 //Drawing with SVG
 
 //Function for rectanlge
-const svg = document.getElementById("svg");
+//const svg = document.getElementById(id);
 
 function rectangleSvg(x, y, width, height, style, id) {
     var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
