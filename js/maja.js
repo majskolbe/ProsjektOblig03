@@ -9,6 +9,7 @@ circleSvg("140", "70", "20", "fill:black", "majaSvg");
 rectangleSvg("40", "130", "130", "10", "fill:black", "majaSvg");
 rectangleSvg("30", "45", "140", "20", "fill:yellow", "majaSvg");
 
+
 //drawing in canvas
 //draving circles and with different parameters
 circle(100, "solid", "yellow", 100, 100, "majaCanvas")
@@ -17,6 +18,16 @@ circle(20, "solid", "black", 60, 70, "majaCanvas")
 
 rectangle(10, 120, 40, 130, "solid", "black", "majaCanvas")
 rectangle(20, 150, 20, 45, "solid", "yellow", "majaCanvas")
+
+
+//drawing mouth with canvas
+
+ovalSvg("100", "150", "50", "20", "fill:red", "majaSvg");
+
+//oval(100, 100, 50, 40, 0, Math.PI * 2, "solid", "black", "majaCanvas"); // Face
+
+ovalSvg("110", "180", "15", "40", "2", "fill:grey", "majaSvg")
+
 
 
 
