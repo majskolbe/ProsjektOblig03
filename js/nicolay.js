@@ -1,6 +1,6 @@
 
-rectangleSvg("0", "0", "300", "540", "lightblue", "nicolaySvg")
-rectangleSvg("0", "0", "80", "540", "darkblue", "nicolaySvg")
+rectangleSvg("0", "0", "540", "300", "lightblue", "nicolaySvg")
+rectangleSvg("0", "0", "540", "80", "darkblue", "nicolaySvg")
 
 
 
