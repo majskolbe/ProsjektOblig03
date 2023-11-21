@@ -16,7 +16,7 @@ rectangle(300, 540, 0, 0, "solid", "lightblue", "NicolayCanvas")
 rectangle(80, 540, 0, 220, "solid", "darkblue", "NicolayCanvas")
 
 circle(110, "solid", "yellow", 260, 140, "NicolayCanvas")
-circle(40, "solid", "orange", 50, 20, "NicolayCanvas")  
+circle(40, "solid", "gold", 50, 20, "NicolayCanvas")  
 
 Oval(220, 125, 20, 23, 400, 0, Math.PI * 2, "solid", "orange", "NicolayCanvas")
 Oval(215, 85, 35, 5, -7, 0, Math.PI * 2, "solid", "orange", "NicolayCanvas")
