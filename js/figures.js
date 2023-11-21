@@ -24,19 +24,16 @@ rectangle = function(height, width, x, y, mode, color, id) {
 //function for drawing a smiley mouth
 
 
-function oval(x, y, radiusX, radiusY, startAngle, endAngle, mode, color, id) {
-    const ctx = document.getElementById(id).getContext("2d");
-    ctx.fillStyle = color;
-    ctx.beginPath();
-    ctx.ellipse(x, y, radiusX, radiusY, 0, startAngle, endAngle);
-    if (mode === "solid") {
-        ctx.fill();
-    } else {
-        ctx.stroke();
-    }
+Oval = function(x, y, radiusX, radiusY, rotation, startAngle, endAngle, mode, color) {
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle);
+  if (mode == "solid") {
+    ctx.fill();
+  } else {
+    ctx.stroke();
+  }
 }
-
-
 
 
 
