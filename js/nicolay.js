@@ -5,10 +5,10 @@ circleSvg("260", "140", "110", "fill:yellow", "nicolaySvg")
 circleSvg("50", "20", "40", "fill:orange", "nicolaySvg")
 OvalSvg("220", "125", "20", "23", "0", "fill:orange", "nicolaySvg")
 OvalSvg("215", "85", "35", "5", "-35", "fill:orange", "nicolaySvg")
-OvalSvg("310", "125", "22", "5", "180", "fill:orange", "nicolaySvg")
-OvalSvg("310", "105", "35", "5", "180", "fill:orange", "nicolaySvg")
-OvalSvg("265", "190", "50", "20", "180", "fill:orange", "nicolaySvg")
-OvalSvg("265", "180", "46", "21", "180", "fill:yellow", "nicolaySvg")
+OvalSvg("310", "125", "22", "5", "0", "fill:orange", "nicolaySvg")
+OvalSvg("310", "105", "35", "5", "0", "fill:orange", "nicolaySvg")
+OvalSvg("265", "190", "50", "20", "0", "fill:orange", "nicolaySvg")
+OvalSvg("265", "180", "46", "21", "0", "fill:yellow", "nicolaySvg")
 
 
 
