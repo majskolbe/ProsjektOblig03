@@ -17,4 +17,4 @@ oval("100", "160", "50", "20", "fill:red", "joelSvg");
 
 
  //drawing mouth with canvas
- smile(100, 160, 50, 20, 400, 0, "solid", "red", "joelCanvas");
+ smile(100, 160, 50, 20, 400, 0, Math.PI * 2, "solid", "red", "joelCanvas");
