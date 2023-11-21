@@ -1,6 +1,6 @@
 
-rectangleSvg("400", "400", "0", "0", "fill:skyblue", "kristianSvg") 
-rectangleSvg("100", "400", "0", "300", "fill:white", "kristianSvg")
+rectangleSvg("0", "0", "400", "400", "fill:skyblue", "kristianSvg") 
+rectangleSvg("0", "300", "100", "400", "fill:white", "kristianSvg")
 OvalSvg("110", "180", "15", "40", "2", "fill:grey", "kristianSvg")
 OvalSvg("290", "180", "15", "40", "-2", "fill:grey", "kristianSvg")
 OvalSvg("220", "290", "60", "20", "500", "fill:Orange", "kristianSvg")
