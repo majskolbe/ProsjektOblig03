@@ -1,10 +1,9 @@
 
 rectangleSvg("0", "0", "540", "300", "fill:lightblue", "nicolaySvg")
 rectangleSvg("0", "220", "540", "80", "fill:darkblue", "nicolaySvg")
+circleSvg("260", "140", "110", "fill:yellow", "nicolaySvg")
+circleSvg("50", "20", "40", "fill:orange", "nicolaySvg")
 OvalSvg("220", "125", "20", "23", "400", "fill:orange", "nicolaySvg")
-
-
-
 
 
 
