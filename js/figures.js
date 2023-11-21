@@ -1,37 +1,23 @@
 
 //defining some constants for canvas
-const drw = document.getElementById("canvas").getContext("2d");
-
 
 //function for drawing a circle with canvas
-circle = function(radius, mode, color, x, y) {
-  drw.fillStyle = color;
-  drw.beginPath();
-  drw.arc(x, y, radius, 0, Math.PI * 2, true); // Outer circle
+circle = function(radius, mode, color, x, y, id) {
+    document.getElementById(id).getContext("2d").fillStyle = color;
+    document.getElementById(id).getContext("2d").beginPath();
+    document.getElementById(id).getContext("2d").arc(x, y, radius, 0, Math.PI * 2, true); // Outer circle
   if (mode == "solid") {
-    drw.fill();
+    document.getElementById(id).getContext("2d").fill();
   } else {
-    drw.stroke();
+    document.getElementById(id).getContext("2d").stroke();
   }
 }
 
 //function for drawing rectangles
-rectangle = function(height, width, x, y, mode, color) {
-    drw.fillStyle = color, mode;
-    drw.fillRect(x, y, width, height);
+rectangle = function(height, width, x, y, mode, color, id) {
+    document.getElementById(id).getContext("2d").fillStyle = color, mode;
+    document.getElementById(id).getContext("2d").fillRect(x, y, width, height);
   }
-
-//this way of writing out the figures corresponds to the put-image function in pyret
-
-//draving circles and with different parameters
-circle(100, "solid", "yellow", 100, 100)
-circle(20, "solid", "black", 140, 70)
-circle(20, "solid", "black", 60, 70)
-
-rectangle(10, 120, 40, 130, "solid", "black")
-rectangle(20, 150, 20, 45, "solid", "yellow")
-
-
 
 
 
@@ -49,8 +35,6 @@ function rectangleSvg(x, y, width, height, style, id) {
     rect.setAttribute("style", style);
     
     document.getElementById(id).appendChild(rect);
-
-
 }
 
 //Function for circle
@@ -62,19 +46,9 @@ function circleSvg(x, y, r, style, id){
     circle.setAttribute("style", style);
 
     document.getElementById(id).appendChild(circle);
-
 }
 
-//this way of writing out the figures corresponds to the put-image function in pyret
 
-//drawing rectangles and circles in different sizes and possision. 
-
-circleSvg("100", "100", "100", "fill:yellow", "svg");
-circleSvg("60", "70", "20", "fill:black", "svg");
-circleSvg("140", "70", "20", "fill:black", "svg");
-
-rectangleSvg("40", "130", "130", "10", "fill:black", "svg");
-rectangleSvg("30", "45", "140", "20", "fill:yellow", "svg");
 
 
 
